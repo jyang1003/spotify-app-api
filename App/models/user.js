@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema({
         unique: true
     },
     playlist: {
-        type: Schema.Type.ObjectId,
+        type: mongoose.Schema.Types.ObjectId,
         ref: "Playlist"
     }
 
